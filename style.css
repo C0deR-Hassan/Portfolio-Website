@@ -1,0 +1,236 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+    text-decoration: none;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* CUSTOM CURSOR */
+
+.cursor {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    z-index: 9999;
+}
+
+/* CUSTOM CURSOR ENDS */
+
+#main {
+    width: 100%;
+}
+
+/* SECTION 1 STARTS HERE */
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav h4 span {
+    opacity: .5;
+    user-select: none;
+}
+
+.headings {
+    margin-top: 75px;
+    margin-left: 45px;
+}
+.headings .second-h1 {
+    margin-top: -2%;
+    margin-left: 12vw;
+}
+
+.blockText {
+    width: fit-content;
+}
+
+.headings h1{
+    display: block;
+    line-height: 1;
+    color: #A3A3A3;
+    font-size: 10vw;
+}
+
+.headings h4 {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 16px;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .bounding-elm {
+    transform: translateY(100%);
+}
+
+.freelance-text {
+    width: 100%;
+    text-align: right;
+    padding-right: 37px;
+    margin-top: 118px;
+}
+
+.freelance-text .work-from-may {
+    margin-top: 13px;
+}
+
+.twoText-twoArrows {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-top: 10px;
+}
+
+.satisfaction {
+    margin-right: 150px;
+}
+
+.arrows span {
+    background-color: #AAAAAA;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+
+.arrows span i{
+    color: black;
+    font-weight: 800;
+}
+/* SECTION 1 ENDS HERE */
+
+/* SECTION 2 STARTS HERE */
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 185px;
+}
+
+.section-2 .noImageText {
+    border-top: 1px solid #888;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hudu {
+    border-bottom: 1px solid #888;
+}
+
+.noImageText h1 {
+    font-size: 100px;
+    opacity: .6;
+}
+
+.noImageText img {
+    display: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+/* SECTION 2 ENDS HERE */
+
+/* SECTION 3 STARTS HERE */
+.section-3 {
+    margin-top: 280px;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-container {
+    padding: 10vh 10vw;
+    padding-left: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.about-container img {
+    height: 230px;
+}
+
+.about-text a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    border: 1px solid white;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.about-text a:hover {
+    background-color: white;
+    color: black;
+}
+
+.forgot-container {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.forgot-container h5 {
+    color: #A3A3A3;
+    line-height: 2;
+    font-size: 14px;
+}
+/* SECTION 3 ENDS HERE */
+
+/* FOOTER STARTS HERE */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+/* FOOTER ENDS HERE */
