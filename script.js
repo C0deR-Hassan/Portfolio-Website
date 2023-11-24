@@ -16,3 +16,7 @@ window.addEventListener('mousemove', (e) => {
 })
 
 // CURSOR SCRIPT ENDS HERE🛑
+
+const boundingElm = document.querySelector('.bounding-elm')
+
+boundingElm.
